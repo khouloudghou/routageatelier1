@@ -1,0 +1,8 @@
+<p>invoice-component works!</p>
+<h1>Invoice Details</h1>
+
+<p *ngIf="active">Invoice ID: {{ id }}</p>
+<p *ngIf="active">Active: {{ active }}</p>
+
+<p *ngIf="!active">Impossible de visualiser les détails de la facture</p>
+<button (click)="goBack()">Retour</button>
